@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#chart-container {
+    padding-top:3rem;
+    margin:0 auto;
+    width: 778px;
+    height:561px;
+    overflow: hidden;
+    text-align:center;
+}
+.tooltip {
+    border-radius: 4px;
+    font-family: 'Inter',"Arial", sans-serif;
+}
+.tooltip_title{
+    margin-right:0.5rem;
+    font-weight: 600;
+    line-height: 120%;
+    color:#002033;
+}
+.tooltip_circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%
+}
+.tooltip_group_title{
+    margin-left: -4rem;
+}
+.tooltip_value{
+    display: inline-block;
+    font-weight: 600;
+    color:#002033;
+}
+.tooltip_group{
+    display: flex;
+    justify-content: space-between;
+}
